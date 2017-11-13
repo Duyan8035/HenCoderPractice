@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.robertlevonyan.views.chip.Chip
+        android:id="@+id/item_chip_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:mcv_chipIcon="@mipmap/ic_launcher_round"
+        app:mcv_chipText="测试"
+        app:mcv_closable="true"
+        app:mcv_hasIcon="true" />
+
+    <!--chip.setChipText(); // Set Chip label-->
+    <!--chip.setTextColor(); // Set Chip label color-->
+    <!--chip.changeBackgroundColor(); //Set custom background color-->
+    <!--chip.changeSelectedBackgroundColor(); //Set custom background color when selected-->
+    <!--chip.setHasIcon(); //Set chip has icon-->
+    <!--chip.setChipIcon(); //Set Icon Drawable for Chip-->
+    <!--chip.setClosable(); //Set Chip has close button-->
+    <!--chip.setCloseColor(); //Set custom color for close button-->
+    <!--chip.setSelectable(); //Set Chip has selection button-->
+    <!--chip.setClicked(); // Set Chip as clicked-->
+    <!--chip.setSelectedTextColor(); //Set custom color for label when selected-->
+    <!--chip.setSelectedCloseColor(); //Set custom color for close button when selected-->
+    <!--chip.setCornerRadius(); // Set corner radius of your Chip-->
+    <!--chip.setStrokeSize(); // Set width of stroke-->
+    <!--chip.setStrokeColor(); // Set stroke color for your Chip-->
+    <!--chip.setIconText(); // Set Chip icon text, text color and background color-->
+
+</android.support.constraint.ConstraintLayout>

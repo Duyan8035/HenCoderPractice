@@ -4,7 +4,8 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.view.View;
+
+import com.example.administrator.hencoderpractice.base.BaseView;
 
 public class Practice10HistogramView extends BaseView {
 

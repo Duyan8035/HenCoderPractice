@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +20,30 @@
             </intent-filter>
         </activity>
         <activity android:name=".test.TestActivity" />
-        <activity android:name=".practice.practicedraw1.PracticeDraw1Activity" />
+        <activity
+            android:name=".practice.practicedraw1.PracticeDraw1Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".practice.practicedraw2.PracticeDraw2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".practice.practicedraw3.PracticeDraw3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".practice.practicedraw4.PracticeDraw4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".practice.practicedraw5.PracticeDraw5Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".practice.practicedraw6.PracticeDraw6Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".practice.practicedraw7.PracticeDraw7Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".practice.practicedlayout1.PracticeLayout1Activity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

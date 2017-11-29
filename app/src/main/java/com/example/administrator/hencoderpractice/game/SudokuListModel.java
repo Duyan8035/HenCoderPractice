@@ -16,6 +16,9 @@ public class SudokuListModel {
         static final int NUM = 2;
         int original = 0;
         int value = 0;
+        /**
+         * 0表示无方格区域 1表示原始已存在数字方格 2表示可填入数字区域
+         */
         int type = 0;
 
         public bean() {

@@ -45,7 +45,6 @@ public class PracticeDraw1Activity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_practice_draw_1_main);
-
         pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(new FragmentPagerAdapter(getSupportFragmentManager()) {
 

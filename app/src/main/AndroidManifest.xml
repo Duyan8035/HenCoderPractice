@@ -44,6 +44,7 @@
         <activity
             android:name=".practice.practicedlayout1.PracticeLayout1Activity"
             android:screenOrientation="portrait" />
+        <activity android:name=".game.SudokuActivity"></activity>
     </application>
 
 </manifest>

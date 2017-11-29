@@ -9,6 +9,7 @@ import com.blankj.utilcode.util.ActivityUtils;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.example.administrator.hencoderpractice.base.BaseActivity;
+import com.example.administrator.hencoderpractice.game.SudokuActivity;
 import com.example.administrator.hencoderpractice.practice.practicedlayout1.PracticeLayout1Activity;
 import com.example.administrator.hencoderpractice.practice.practicedraw1.PracticeDraw1Activity;
 import com.example.administrator.hencoderpractice.practice.practicedraw2.PracticeDraw2Activity;
@@ -41,7 +42,8 @@ public class MainActivity extends BaseActivity {
         DRAW5(PracticeDraw5Activity.class, "Draw5", R.drawable.icon_practice_draw_5),
         DRAW6(PracticeDraw6Activity.class, "Draw6", R.drawable.icon_practice_draw_6),
         DRAW7(PracticeDraw7Activity.class, "Draw7", R.drawable.icon_practice_draw_7),
-        LAYOUT1(PracticeLayout1Activity.class, "Layout1", R.drawable.icon_practice_layout_1);
+        LAYOUT1(PracticeLayout1Activity.class, "Layout1", R.drawable.icon_practice_layout_1),
+        SODOKU(SudokuActivity.class, "Sudoku", R.drawable.icon_practice_layout_1);
         Class activity;
         String name;
         int imgUrl;

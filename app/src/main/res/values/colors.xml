@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <color name="default_tv_select">#aeaeae</color>
+    <color name="default_tv_unselect">#e6e6e6</color>
+    <color name="default_tv_shape_padding">#555555</color>
+
 </resources>

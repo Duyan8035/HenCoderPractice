@@ -37,4 +37,5 @@ dependencies {
     implementation 'com.robertlevonyan.view:MaterialChipView:1.1.2'
     //https://github.com/LRH1993/AutoFlowLayout
     implementation 'com.github.LRH1993:AutoFlowLayout:1.0.5'
+    implementation 'com.google.code.gson:gson:2.8.2'
 }
